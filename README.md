@@ -22,7 +22,7 @@ or to *pom.xml* (if you use maven)
 
 #### Example(s)
 
-* [Classification of walking (gait) time series](src/main/scala/examples/WalkingActivityClassificationWithCNN) - classification of WISDM data set into 6 activities/categories (e.g., walking, standing, and jogging) using CNNs 
+* [Classification of walking (gait) time series](src/main/scala/examples/WalkingActivityClassificationWithCNN.scala) - classification of WISDM data set into 6 activities/categories (e.g., walking, standing, and jogging) using CNNs
 
 #### Acknowledgement
 
