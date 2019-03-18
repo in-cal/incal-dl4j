@@ -1,6 +1,6 @@
 # InCal DL4J Library [![version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://ada.parkinson.lu)
 
-This is a wrapper of [Deeplearning4J library](https://deeplearning4j.org) designed especially for time-series classification and predition using (one-dimensional) convolutional neural networks and LSTMs.
+This is a wrapper of [Deeplearning4J library](https://deeplearning4j.org) designed especially for time-series classification and prediction using (one-dimensional) convolutional neural networks and LSTMs.
 
 #### Installation
 

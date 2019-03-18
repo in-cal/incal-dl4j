@@ -4,28 +4,22 @@ name := "incal-dl4j"
 
 version := "0.1.0"
 
-description := "Convenient wrapper of Deeplearning4J library especially for a temporal classification."
+description := "Convenient wrapper of Deeplearning4J library especially for temporal classification."
 
 isSnapshot := false
 
 scalaVersion := "2.11.12"
 
-// resolvers ++= Seq(
-//   Resolver.mavenLocal
-// )
-
 libraryDependencies ++= Seq(
-  "org.deeplearning4j" %% "scalnet" % "1.0.0-beta3",
-// "org.deeplearning4j" % "deeplearning4j-core" % "1.0.0-beta3",  
+  "org.deeplearning4j" % "deeplearning4j-core" % "1.0.0-beta3",
   "org.nd4j" % "nd4j-native-platform" % "1.0.0-beta3",
-  "org.deeplearning4j" % "deeplearning4j-nlp" % "1.0.0-beta3",
-//  "org.deeplearning4j" %% "deeplearning4j-ui" % "1.0.0-beta3",
   "org.slf4j" % "slf4j-api" % "1.7.21",
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
   "org.in-cal" %% "incal-core" % "0.1.1"
 )
 
 // POM settings for Sonatype
-// homepage := Some(url("https://ada.parkinson.lu"))
+homepage := Some(url("https://ada.parkinson.lu"))
 
 publishMavenStyle := true
 
