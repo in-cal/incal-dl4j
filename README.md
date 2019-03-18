@@ -29,4 +29,4 @@ or to *pom.xml* (if you use maven)
 Development of this library has been significantly supported by a one-year MJFF Grant (2018-2019):
 *Scalable Machine Learning And Reservoir Computing Platform for Analyzing Temporal Data Sets in the Context of Parkinson’s Disease and Biomedicine*
 
-![logo](https://in-cal.org/mjff_logo.png =50x)
+<a href="https://www.michaeljfox.org"><img src="https://in-cal.org/mjff_logo.png" width="700"></a>
