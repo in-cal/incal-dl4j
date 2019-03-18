@@ -27,7 +27,7 @@ object WalkingActivityClassificationWithCNN extends App with DL4JHelper {
     numColumns = 3,                // number of features / channels
     outputNum = 6,                 // number of output classes
     batchSize = 400,               // batch size for each epoch
-    numEpochs = 2,                // number of epochs
+    numEpochs = 50,                // number of epochs
     learningRate = 0.001,
     kernelSize = 10,
     poolingKernelSize = 3,
