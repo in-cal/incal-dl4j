@@ -2,7 +2,7 @@ organization := "org.in-cal"
 
 name := "incal-dl4j"
 
-version := "0.1.0"
+version := "0.1.9"
 
 description := "Convenient wrapper of Deeplearning4J library especially for temporal classification."
 
@@ -15,11 +15,11 @@ libraryDependencies ++= Seq(
   "org.nd4j" % "nd4j-native-platform" % "1.0.0-beta3",
   "org.slf4j" % "slf4j-api" % "1.7.21",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
-  "org.in-cal" %% "incal-core" % "0.1.1"
+  "org.in-cal" %% "incal-core" % "0.1.9"
 )
 
 // POM settings for Sonatype
-homepage := Some(url("https://ada.parkinson.lu"))
+homepage := Some(url("https://in-cal.org"))
 
 publishMavenStyle := true
 
