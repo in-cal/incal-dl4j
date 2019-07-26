@@ -2,7 +2,7 @@ organization := "org.in-cal"
 
 name := "incal-dl4j"
 
-version := "0.2.1"
+version := "0.2.2.RC.1"
 
 description := "Convenient wrapper of Deeplearning4J library especially for temporal classification."
 
@@ -19,8 +19,6 @@ libraryDependencies ++= Seq(
 )
 
 // POM settings for Sonatype
-homepage := Some(url("https://in-cal.org"))
-
 publishMavenStyle := true
 
 scmInfo := Some(ScmInfo(url("https://github.com/peterbanda/incal-dl4j"), "scm:git@github.com:peterbanda/incal-dl4j.git"))
