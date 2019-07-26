@@ -11,7 +11,7 @@ import org.incal.dl4j.{DL4JHelper, TimeSeriesClassificationSpec}
   */
 object WalkingActivityClassificationWithCNN extends App with DL4JHelper {
 
-  // download the DL4J-ready (normalized and segmented) data from https://in-cal.org/data/WISDM_DL4J.zip, unzip, and set the path bellow
+  // download the DL4J-ready (normalized and segmented) data from https://bit.ly/2OnOYqI, unzip, and set the path bellow
   private val path = "/data_path/"
 
   // specification of a time-series classification
