@@ -1,7 +1,5 @@
 import com.typesafe.sbt.license.{DepModuleInfo, LicenseInfo}
 
-organization := "org.in-cal"
-
 name := "incal-dl4j"
 
 version := "0.2.2.RC.1"
@@ -54,6 +52,7 @@ licenseOverrides := {
   | DepModuleInfo("com.github.os72", "protobuf-java-shaded-351", _) =>
     LicenseInfo(LicenseCategory.BSD, "BSD-3 Clause", "http://opensource.org/licenses/BSD-3-Clause")
 }
+organization := "org.in-cal"
 
 // POM settings for Sonatype
 publishMavenStyle := true

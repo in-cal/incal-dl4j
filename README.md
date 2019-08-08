@@ -11,4 +11,4 @@ This is a wrapper of [Deeplearning4J library](https://deeplearning4j.org) design
 Development of this library has been significantly supported by a one-year MJFF Grant (2018-2019):
 *Scalable Machine Learning And Reservoir Computing Platform for Analyzing Temporal Data Sets in the Context of Parkinson’s Disease and Biomedicine*
 
-<a href="https://www.michaeljfox.org"><img src="https://in-cal.org/mjff_logo.png" width="700"></a>
+<a href="https://www.michaeljfox.org"><img src="https://peterbanda.net/mjff_logo.png" width="700"></a>
