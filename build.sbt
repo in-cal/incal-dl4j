@@ -2,7 +2,7 @@ import com.typesafe.sbt.license.{DepModuleInfo, LicenseInfo}
 
 name := "incal-dl4j"
 
-version := "0.2.2.RC.1"
+version := "0.2.2"
 
 description := "Convenient wrapper of Deeplearning4J library especially for temporal classification."
 
@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "org.nd4j" % "nd4j-native-platform" % "1.0.0-beta3",
   "org.slf4j" % "slf4j-api" % "1.7.21",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
-  "org.in-cal" %% "incal-core" % "0.2.1"
+  "org.in-cal" %% "incal-core" % "0.2.2"
 )
 
 // For licenses not automatically downloaded (need to list them manually)
@@ -32,6 +32,7 @@ licenseOverrides := {
   | DepModuleInfo("commons-codec", "commons-codec", _)
   | DepModuleInfo("commons-io", "commons-io", _)
   | DepModuleInfo("commons-net", "commons-net", _)
+  | DepModuleInfo("commons-lang", "commons-lang", _)
   | DepModuleInfo("com.google.guava", "guava", _)
   | DepModuleInfo("com.google.code.gson", "gson", _)
   | DepModuleInfo("org.objenesis", "objenesis", "2.6") =>
