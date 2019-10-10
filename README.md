@@ -1,4 +1,4 @@
-# InCal DL4J Library [![version](https://img.shields.io/badge/version-0.2.2-green.svg)](https://ada-discovery.github.io) [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Build Status](https://travis-ci.com/in-cal/incal-dl4j.svg?branch=master)](https://travis-ci.com/in-cal/incal-dl4j)
+# InCal DL4J Library [![version](https://img.shields.io/badge/version-0.2.2-green.svg)](https://ada-discovery.github.io) [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Build Status](https://travis-ci.com/peterbanda/incal-dl4j.svg?branch=master)](https://travis-ci.com/peterbanda/incal-dl4j)
 
 This is a wrapper of [Deeplearning4J library](https://deeplearning4j.org) designed especially for time-series classification and prediction using (one-dimensional) convolutional neural networks and LSTMs.
 
