@@ -4,11 +4,11 @@ organization := "org.in-cal"
 
 name := "incal-dl4j"
 
-version := "0.3.0"
+version := "0.3.1-SNAPSHOT"
 
 description := "Convenient wrapper of Deeplearning4J library especially for temporal classification."
 
-isSnapshot := false
+isSnapshot := true
 
 scalaVersion := "2.11.12"
 
